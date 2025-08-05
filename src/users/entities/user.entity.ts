@@ -6,7 +6,7 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
 } from 'typeorm';
-import { Post } from 'src/posts/entities/post.entity';
+import { Post } from '../../posts/entities/post.entity';
 
 @Entity()
 export class User {
@@ -16,7 +16,7 @@ export class User {
   @Column({ unique: true })
   username: string;
 
-  //Para implementar mas adelante, con auth, login, etc...
+  // Para implementar mas adelante con auth, login, etc ...
   // @Column()
   // email: string;
 
