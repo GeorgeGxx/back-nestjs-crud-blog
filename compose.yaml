@@ -22,6 +22,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      target: production
     env_file:
       - .env
     ports:

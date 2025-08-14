@@ -54,6 +54,8 @@ Para ejecutar la aplicación en modo de producción, puedes usar:
 
 Para ejecutar la aplicacion en Docker, puedes usar:
 
+    docker compose up --build
+    docker compose up -d --build
     docker compose up -d db
     docker compose up -d app
     docker compose up -d
